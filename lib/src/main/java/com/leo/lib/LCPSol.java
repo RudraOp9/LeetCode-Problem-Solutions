@@ -1,5 +1,7 @@
 package com.leo.lib;
 
+import java.util.Arrays;
+
 // https://leetcode.com/problems/longest-common-prefix/description/
 // solved
 public class LCPSol {
@@ -8,6 +10,7 @@ public class LCPSol {
         System.out.println(longestCommonPrefix(karma));
     }
     public static String longestCommonPrefix(String[] strs) {
+        Arrays.sort(strs);
         String answer = "";
         for (int a = 0; a<strs[0].length();a++){
             char shorts = strs[0].charAt(a);
