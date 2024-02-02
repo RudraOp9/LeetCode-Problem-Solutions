@@ -23,6 +23,7 @@ public class LCPSol {
                     if (b == strs.length - 1) {
                         answer += reel;
 
+
                         System.out.println("check" + answer);
                     }
                 } else {
